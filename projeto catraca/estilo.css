@@ -1,0 +1,16 @@
+body {
+font-size: 20x;
+text-align: center;
+}
+
+h3 {
+ color:blue;
+}
+
+footer {
+	background-color: #1100ff;
+	color: #ffffff;
+	padding: 50px;
+	text-align: center;
+	margin-top: 360px;
+}

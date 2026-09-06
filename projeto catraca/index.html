@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Catraca</title>
+</head>
+<body>
+
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRqsz5KJo6zwvLKok-wyXJiULw2mK1wiYsFA&s" alt="Logo ou imagem ilustrativa">
+    <br><br>
+
+    <h3>Informações do Aluno: Catraca</h3>
+    
+ 
+    <form action="pagina2.html" method="POST">
+        
+
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome">
+
+        <label for="sobrenome">Sobrenome:</label>
+        <input type="text" id="sobrenome" name="sobrenome">
+
+        <input type="submit" value="Enviar">
+        <br><br>
+
+        
+        <label for="numero">CGM:</label>
+        <input type="number" id="numero" name="numero" maxlength="10" oninput="this.value = this.value.slice(0, 10);" required>
+       <br><br>
+
+
+        <label for="turma">Turma:</label>
+        <select id="turma" name="turma">
+            <option value="1A">1A</option>
+            <option value="2A">2A</option>
+            <option value="3A">3A</option>
+        </select>
+        <br><br>
+
+        
+        <label for="turno">Turno:</label>
+        <select id="turno" name="turno">
+            <option value="manha">Manhã</option>
+            <option value="tarde">Tarde</option>
+            <option value="noite">Noite</option>
+        </select>
+        <br><br>
+
+        
+        <label>Gênero:</label>
+        <input type="radio" id="masculino" name="genero" value="masculino">
+        <label for="masculino">Masculino</label>
+
+        <input type="radio" id="feminino" name="genero" value="feminino">
+        <label for="feminino">Feminino</label>
+
+        <input type="radio" id="therion" name="genero" value="therion">
+        <label for="therion">Therion</label>
+
+        <input type="radio" id="nonbinary" name="genero" value="nonbinary">
+        <label for="nonbinary">Não-binário</label>
+        <br><br>
+
+    </form>
+
+   
+    <footer>
+        <p>(41) 3249-1200, Rua Cidade Gaúcha, 120, CIC, PR, 812502-50, Brasil.</p>
+    </footer>
+
+</body>
+</html>
